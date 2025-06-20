@@ -4,7 +4,7 @@ This code allows to fit GARCH MIDAS volatility model for an index and a set of m
 This method has the benefit of using both a long-term variance fitted on macro variables and a GARCH(1,1) model.
 Method used for calibration is standard Quasi Maximum Likelihood with gaussian residuals.
 
-** Data requirements: **
+**Data requirements:**
 
 The return time series for the index/asset considered have daily frequency. The object expects a pd.Series.
 Macro time series can have monthly or quarterly frquencies. The code assumes that the macro series have dates at end of month.
@@ -16,7 +16,7 @@ For macro variables, the object expects a dictionary of tuples in this order:
 4) type of filter as a string: 'MAV', 'Constrained' or 'MIDAS'
 5) number of lags as a an integer
 
-** References: **
+**References:**
 
 On the Economic Sources of Stock Market Volatility, Engle et al., [2008](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=971310)
 
