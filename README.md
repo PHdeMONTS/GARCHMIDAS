@@ -14,7 +14,7 @@ For macro variables, the object expects a dictionary of tuples in this order:
 2) frequency as a string 'M' or 'Q'
 3) description as a string
 4) type of filter as a string: 'MAV', 'Constrained' or 'MIDAS'
-5) number of lags as a an integer
+5) number of lags as an integer
 
 ## References:
 
