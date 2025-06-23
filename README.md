@@ -1,8 +1,8 @@
 # GARCH MIDAS Filter
 
-This code allows to fit GARCH MIDAS volatility model for an index and a set of macro variables.
-This method has the benefit of using both a long-term variance fitted on macro variables and a GARCH(1,1) model.
-Method used for calibration is standard Quasi Maximum Likelihood with gaussian residuals.
+This code fits a GARCH MIDAS volatility model for an index and a set of macro variables.
+This method has the benefit of using both a long-term variance fitted on macro variables and a GARCH(1,1) model, a well-known effective description of short-term volatility dynamics.
+The method used for calibration is standard Quasi Maximum Likelihood with gaussian residuals.
 
 ## Data requirements:
 
