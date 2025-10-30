@@ -7,7 +7,7 @@ The method used for calibration is standard Quasi Maximum Likelihood with gaussi
 ## Data requirements:
 
 The return time series for the index/asset considered have daily frequency. The object expects a pd.Series.
-Macro time series can have monthly or quarterly frquencies. The code assumes that the macro series have dates at end of month.
+Macro time series can have monthly or quarterly frequencies. The code assumes that the macro series have dates at end of month.
 Please note that macro series are always lagged by 1 period before fitting so there is no risk of "look ahead" bias even if macro data is published late in the period.  
 For macro variables, the object expects a dictionary of tuples in this order: 
 1) pd.Series
